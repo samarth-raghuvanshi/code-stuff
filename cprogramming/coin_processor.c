@@ -21,10 +21,10 @@ int main(void)
     total_cents = 100 * dollars + 25 * quarters + 10 * dimes + 5 * nickels + pennies; //counting number of pennies
     total_dollars = total_cents/100; change = total_cents%100; //dollars is integer division quotient, change is integer division remainder.
     
-    printf("\n\n-----------------------------------\n");
+    printf("\n\n-------------------------------------------------\n");
     printf("%c%c%c's Coin Credit", first, middle, last);
     printf("\nDollars: %d", total_dollars);
     printf("\nChange: %d cents\n", change);
-    printf("-----------------------------------\n\n"); //formatting with spaces, newlines and dashes.
+    printf("-------------------------------------------------\n\n"); //formatting with spaces, newlines and dashes.
     return(0);
 }
