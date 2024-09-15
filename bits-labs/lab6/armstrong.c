@@ -10,7 +10,6 @@ int isArmstrong(int num)
         digitCount++;
         numCopy = numCopy/10;
     }
-
     while(numCopy2 > 0)
     {
         sum = sum + pow((numCopy2%10),digitCount);
@@ -20,6 +19,7 @@ int isArmstrong(int num)
     return 1;
     return 0;
 }
+
 int main(void)
 {
     int upper, lower;
